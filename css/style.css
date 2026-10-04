@@ -1,0 +1,325 @@
+html {
+    width: 100%;
+    height: 100%;    
+}
+body {
+    width: 100%;
+    height: 100%;    
+    margin: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+.confetti-container {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
+.confetti {
+    position: absolute;
+    top:0;
+    width: 13px;
+    height: 20px;
+    opacity: 0;
+    /* animation: fall linear infinite; */
+}
+.confetti:nth-child(1) {
+    background-color: #FFC700;
+    left: 7%;
+    transform: rotate(-52deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 345ms;
+          animation-delay: 345ms;
+  -webkit-animation-duration: 1633ms;
+          animation-duration: 1633ms;
+}
+.confetti:nth-child(2) {
+    background-color: #FF3D00;
+    left: 14%;
+    transform: rotate(55deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 270ms;
+          animation-delay: 270ms;
+  -webkit-animation-duration: 1359ms;
+          animation-duration: 1359ms;
+}
+.confetti:nth-child(3) {
+    background-color: #4CAF50;
+    left: 21%;
+     transform: rotate(-44deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+  -webkit-animation-duration: 1603ms;
+          animation-duration: 1603ms;
+}
+.confetti:nth-child(4) {
+    background-color: #00B0FF;
+    left: 28%;
+        transform: rotate(-76deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 340ms;
+          animation-delay: 340ms;
+  -webkit-animation-duration: 190ms;
+          animation-duration: 1900ms;
+}
+.confetti:nth-child(5) {
+    background-color: #FF4081;
+    left: 35%;
+        transform: rotate(82deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 453ms;
+          animation-delay: 453ms;
+  -webkit-animation-duration: 1745ms;
+          animation-duration: 1745ms;
+}
+.confetti:nth-child(6) {
+    background-color: #FFC700;
+    left: 42%;
+        transform: rotate(-21deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 123ms;
+          animation-delay: 123ms;
+  -webkit-animation-duration: 1567ms;
+          animation-duration: 1567ms;
+}
+.confetti:nth-child(7) {
+    background-color: #FF3D00;
+    left: 49%;
+        transform: rotate(98deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 525ms;
+          animation-delay: 525ms;
+  -webkit-animation-duration: 1867ms;
+          animation-duration: 1867ms;
+}
+.confetti:nth-child(8) {
+    background-color: #4CAF50;
+    left: 56%;
+        transform: rotate(56deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 234ms;
+          animation-delay: 234ms;
+  -webkit-animation-duration: 1467ms;
+          animation-duration: 1467ms;
+}
+.confetti:nth-child(9) {
+    background-color: #00B0FF;
+    left: 63%;
+        transform: rotate(-36deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+  -webkit-animation-duration: 1467ms;
+          animation-duration: 1467ms;
+}
+.confetti:nth-child(10) {
+    background-color: #FF4081;
+    left: 70%;
+            transform: rotate(14deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 173ms;
+          animation-delay: 173ms;
+  -webkit-animation-duration: 1367ms;
+          animation-duration: 1367ms;
+}
+.confetti:nth-child(11) {
+    background-color: #ff40d6;
+    left: 77%;
+        transform: rotate(-89deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 560ms;
+          animation-delay: 560ms;
+  -webkit-animation-duration: 1767ms;
+          animation-duration: 1767ms;
+}
+.confetti:nth-child(12) {
+    background-color: #0cb106;
+    left: 84%;
+        transform: rotate(-89deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+          animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 560ms;
+          animation-delay: 560ms;
+  -webkit-animation-duration: 1767ms;
+          animation-duration: 1767ms;
+}
+.confetti:nth-child(13) {
+    background-color: #e7f51f;
+    left: 91%;
+    animation-duration: 3.8s;
+}
+.confetti:nth-child(14) {
+    background-color: #21bae9;
+    left: 98%;
+    animation-duration: 4s;
+}
+.confetti:nth-child(4n) {
+  width: 13px;
+  height: 13px;
+        background-color: #c0478d;
+  -webkit-animation-duration: 2000ms;
+          animation-duration: 2000ms;
+}
+.confetti:nth-child(8n) {
+  width: 7px;
+  height: 17px;
+      background-color: #e73a3a;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1700ms;
+  -webkit-animation-delay: 1669ms;
+          animation-delay: 1669ms;
+}
+@-webkit-keyframes makeItRain {
+  from {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  to {
+    transform: translateY(550px);
+  }
+}
+@keyframes makeItRain {
+  from {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  to {
+    transform: translateY(550px);
+  }
+}
+.pic{
+  width: 300px;
+  height: 280px;
+}
+.main_pic{
+  width: 100%;
+}
+.hours, .date, .shake_pic {
+  letter-spacing: 8px !important;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  opacity: 0;
+  transition: 1.5s;
+  animation: show 2s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+  top:30%;
+  font-size: 32px;
+  font-family: Libre Baskerville;
+  font-weight: bold;
+  /* letter-spacing: 32px; */
+  position: relative;
+}
+@keyframes show {
+        0%{
+                opacity: 0;
+                transform: translateY(40px);
+        }
+        100%{
+                opacity: 1;
+                transform: translateY(0px)
+        }
+}
+.shake{
+  animation: shake 1s infinite;
+}
+@keyframes shake{
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-10px, 10px); }
+    50% { transform: translate(10px, 10px); }
+    75% { transform: translate(-10px), 10px; }
+    100% { transform: translate(0, 0); }
+
+} 
+.wishes{
+   font-family:Meie Script;
+   font-size: 25px;
+   position: relative;
+   left: 56%;
+   top: 35%;
+}
+.letter {
+   opacity: 0;
+   animation: letterIn 3s 1;
+}
+.letter:nth-child(1) { animation: letterIn 0.1s linear forwards 4s; }
+.letter:nth-child(2) { animation: letterIn 0.1s linear forwards 4s; }
+.letter:nth-child(3) { animation: letterIn 0.1s linear forwards 4.1s; }
+.letter:nth-child(4) { animation: letterIn 0.1s linear forwards 4.2s; }
+.letter:nth-child(5) { animation: letterIn 0.1s linear forwards 4.3s; }
+.letter:nth-child(6) { animation: letterIn 0.1s linear forwards 4.4s; }
+.letter:nth-child(7) { animation: letterIn 0.1s linear forwards 4.5s; }
+.letter:nth-child(8) { animation: letterIn 0.1s linear forwards 4.6s; }
+.letter:nth-child(9) { animation: letterIn 0.1s linear forwards 4.7s; }
+.letter:nth-child(10) { animation: letterIn 0.1s linear forwards 4.8s; }
+@keyframes letterIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.date{
+    font-size: 17px;
+}
+.about{
+   height: 10%;
+   display: flex;
+   justify-content: space-between;
+}
+.addressFor {
+   display: flex;
+   align-items: center;
+   margin-left: 5%;
+   font-family: Libre Baskerville;
+}
+.addressFrom {
+   display: flex;
+   align-items: center;
+   margin-right: 5%;
+   font-family: Libre Baskerville;
+}
+.link_bio{
+  margin-left: 4px;
+  margin-right: 4px;
+  text-decoration: none;
+  color: #523528;
+}
+@media (max-width: 480px ){
+.wishes{
+   top: 33%;
+}
+.pic{
+  width: 240px;
+  height: 240px;
+}
+.main_pic{
+  width: 100%;
+}
+.hours{
+   margin: auto;
+   text-align: center;
+   max-width: 80%  !important;
+   letter-spacing: 6px !important;
+   font-size: 25px !important;
+}
+}
+@media (min-width: 480px ){
+.letter {
+  font-size: 35px;
+}
+}
